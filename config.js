@@ -10,6 +10,7 @@ module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined ? 'MOVIE-VISPER=16MAhLaQ#C545GWVfO9Xm_8NcvQEdvJc_Y88pEunevh8tTImlKok' : process.env.SESSION_ID, 
 PORT: process.env.PORT === undefined ? '8000' : process.env.PORT,    
 SESSION_NAME: process.env.SESSION_NAME === undefined ? 'vispermd' : process.env.SESSION_NAME, 
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94779510013' : process.env.OWNER_NUMBER, 
 
 };
 
